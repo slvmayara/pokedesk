@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon - Projeto Final B8one Academy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#" class="logo-link">
+                    <img src="./assets/images/Pokemon-Logo-1.png" alt="Logo Pokémon" class="logo-image">
+                </a>
+            </div>
+
+            <div class="search">
+                <button class="search-button" type="submit">
+                    <img src="./assets/images/search-button.png" alt="Pesquisar" class="search-icon-button">
+                </button>
+                <input class="search-input" type="search" placeholder="Buscar seu Pokémon">
+            </div>
+        </div>
+    </header>
+
+    <section class="pokemon-filter-section">
+        <div class="container">
+            <h1 class="pokemon-filter-section-title">
+                Pokémons
+            </h1>
+            <ul class="pokemon-filter-list">
+                <li class="pokemon-filter-list-item pokemon-filter-list-item-active">
+                    <button class="pokemon-filter-list-button" data-pokemon-type-name="fire">
+                        Fire
+                    </button>
+                </li>
+                <li class="pokemon-filter-list-item">
+                    <button class="pokemon-filter-list-button" data-pokemon-type-name="water">
+                        Water
+                    </button>
+                </li>
+                <li class="pokemon-filter-list-item">
+                    <button class="pokemon-filter-list-button" data-pokemon-type-name="electric">
+                        Electric
+                    </button>
+                </li>
+                <li class="pokemon-filter-list-item">
+                    <button class="pokemon-filter-list-button" data-pokemon-type-name="poison">
+                        Poison
+                    </button>
+                </li>
+            </ul>
+    </section>
+
+    <main class="pokemons">
+        <div class="container">
+            <ul class="pokemons-list">
+
+            </ul>
+    </main>
+    <script src="./assets/js/index.js"></script>
+
+    <footer>
+        <ul style="list-style: none;">
+            <li>Projeto gráfico: <a
+                    href="https://www.figma.com/file/CFd1USWtbpCj3gogP6FB7X/Pokemon?node-id=37%3A1023">Yusting Mora.</a>
+            </li>
+            <li>Projeto final proposto pelo curso de Desenvolvimento Frontend da <a href="https://app.b8one.academy/portal">B8one
+                    Academy.</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
